@@ -1,18 +1,17 @@
 <p align="center">
-  <a href="https://www.docx-editor.dev/">
-    <img src="./.github/assets/header.png" alt="DOCX Editor — .docx in, .docx out. Open source, agent ready, client-side." width="500" />
+  <a href="https://docx.parastus.me/">
+    <img src="./.github/assets/header.png" alt="Para Scribe — .docx in, .docx out. Open source, agent ready, client-side." width="500" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@eigenpal/docx-editor-core"><img src="https://img.shields.io/npm/v/@eigenpal/docx-editor-core.svg?style=flat-square&color=3B5BDB" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/@eigenpal/docx-js-editor"><img src="https://img.shields.io/npm/dm/@eigenpal/docx-js-editor.svg?style=flat-square&color=3B5BDB" alt="npm downloads" /></a>
-  <a href="https://github.com/eigenpal/docx-editor/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat-square&color=3B5BDB" alt="license" /></a>
-  <a href="https://docx-editor.dev/editor"><img src="https://img.shields.io/badge/Live_Demo-3B5BDB?style=flat-square&logo=vercel&logoColor=white" alt="Demo" /></a>
-  <a href="https://www.docx-editor.dev/docs"><img src="https://img.shields.io/badge/Docs-3B5BDB?style=flat-square&logo=readthedocs&logoColor=white" alt="Documentation" /></a>
+  <a href="https://github.com/pararchy/para-scribe/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat-square&color=3B5BDB" alt="license" /></a>
+  <a href="https://docx.parastus.me/"><img src="https://img.shields.io/badge/Live_Demo-3B5BDB?style=flat-square&logo=vercel&logoColor=white" alt="Demo" /></a>
 </p>
 
-Open-source WYSIWYG `.docx` editor for React and Vue with canonical OOXML, tracked changes, and real-time collaboration. Agent-ready. **[Live demo](https://docx-editor.dev/editor)** | **[Documentation](https://www.docx-editor.dev/docs)**
+**Para Scribe** — Open-source WYSIWYG `.docx` editor for React and Vue with canonical OOXML, tracked changes, and real-time collaboration. Agent-ready. **[Live demo](https://docx.parastus.me/)**
 
 ## Quick Start
 
