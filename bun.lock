@@ -236,7 +236,7 @@
     },
     "packages/agents": {
       "name": "@eigenpal/docx-editor-agents",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "docxtemplater": "^3.50.0",
         "jszip": "^3.10.1",
@@ -267,7 +267,7 @@
     },
     "packages/core": {
       "name": "@eigenpal/docx-editor-core",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "bin": {
         "docx-editor-mcp": "./dist/mcp-cli.mjs",
       },
@@ -281,7 +281,7 @@
         "@microsoft/api-extractor": "^7.50.0",
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -292,7 +292,7 @@
       "peerDependencies": {
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -303,15 +303,15 @@
     },
     "packages/i18n": {
       "name": "@eigenpal/docx-editor-i18n",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "devDependencies": {
         "tsup": "^8.0.1",
-        "typescript": "^5.3.3",
+        "typescript": "^6.0.3",
       },
     },
     "packages/nuxt": {
       "name": "@eigenpal/nuxt-docx-editor",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-vue": "^1.0.3",
         "@nuxt/kit": "^3.14.0 || ^4.0.0",
@@ -337,7 +337,7 @@
     },
     "packages/react": {
       "name": "@eigenpal/docx-editor-react",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-agents": "^1.0.3",
         "@eigenpal/docx-editor-core": "^1.0.3",
@@ -377,7 +377,7 @@
     },
     "packages/vue": {
       "name": "@eigenpal/docx-editor-vue",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-agents": "^1.0.3",
         "@eigenpal/docx-editor-core": "^1.0.3",
@@ -3456,6 +3456,8 @@
     "@eigenpal/docx-editor-agents/@vitejs/plugin-vue": ["@vitejs/plugin-vue@6.0.7", "", { "dependencies": { "@rolldown/pluginutils": "^1.0.1" }, "peerDependencies": { "vite": "^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0", "vue": "^3.2.25" } }, "sha512-km+p+XdSz9Sxm5rqUbqcSfZYaAniKxWBj1KURl+Jr7UaPvvX7BmaWMdP69I5rrFDeQGyxAG7NXdc57vz+snhWg=="],
 
     "@eigenpal/docx-editor-agents/vue": ["vue@3.5.34", "", { "dependencies": { "@vue/compiler-dom": "3.5.34", "@vue/compiler-sfc": "3.5.34", "@vue/runtime-dom": "3.5.34", "@vue/server-renderer": "3.5.34", "@vue/shared": "3.5.34" }, "peerDependencies": { "typescript": "*" }, "optionalPeers": ["typescript"] }, "sha512-WdLBG9gm02OgJIG9axd5Hpx0TFLdzVgfG2evFFu8Rur5O/IoGc5cMjnjh3tPL6GnRGsYvUhBSKVPYVcxRKpMCA=="],
+
+    "@eigenpal/docx-editor-i18n/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
     "@eslint-community/eslint-utils/eslint-visitor-keys": ["eslint-visitor-keys@3.4.3", "", {}, "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="],
 
