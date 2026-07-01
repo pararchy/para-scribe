@@ -59,7 +59,7 @@
         "@types/react-dom": "^19.0.0",
         "autoprefixer": "^10.4.0",
         "postcss": "^8.4.0",
-        "tailwindcss": "^3.4.0",
+        "tailwindcss": "^4.3.1",
         "typescript": "^6.0.3",
       },
     },
@@ -236,7 +236,7 @@
     },
     "packages/agents": {
       "name": "@eigenpal/docx-editor-agents",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "docxtemplater": "^3.50.0",
         "jszip": "^3.10.1",
@@ -267,7 +267,7 @@
     },
     "packages/core": {
       "name": "@eigenpal/docx-editor-core",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "bin": {
         "docx-editor-mcp": "./dist/mcp-cli.mjs",
       },
@@ -281,7 +281,7 @@
         "@microsoft/api-extractor": "^7.50.0",
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -292,7 +292,7 @@
       "peerDependencies": {
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -303,7 +303,7 @@
     },
     "packages/i18n": {
       "name": "@eigenpal/docx-editor-i18n",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "devDependencies": {
         "tsup": "^8.0.1",
         "typescript": "^5.3.3",
@@ -311,7 +311,7 @@
     },
     "packages/nuxt": {
       "name": "@eigenpal/nuxt-docx-editor",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-vue": "^1.0.3",
         "@nuxt/kit": "^3.14.0 || ^4.0.0",
@@ -337,11 +337,11 @@
     },
     "packages/react": {
       "name": "@eigenpal/docx-editor-react",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
-        "@eigenpal/docx-editor-agents": "^1.0.3",
-        "@eigenpal/docx-editor-core": "^1.0.3",
-        "@eigenpal/docx-editor-i18n": "^1.0.3",
+        "@eigenpal/docx-editor-agents": "^1.1.0",
+        "@eigenpal/docx-editor-core": "^1.1.0",
+        "@eigenpal/docx-editor-i18n": "^1.1.0",
         "@radix-ui/react-select": "^2.2.6",
         "clsx": "^2.1.0",
         "sonner": "^2.0.7",
@@ -377,7 +377,7 @@
     },
     "packages/vue": {
       "name": "@eigenpal/docx-editor-vue",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-agents": "^1.0.3",
         "@eigenpal/docx-editor-core": "^1.0.3",
@@ -3618,6 +3618,8 @@
     "accepts/negotiator": ["negotiator@0.6.3", "", {}, "sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg=="],
 
     "agent-chat-demo/postcss": ["postcss@8.5.14", "", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg=="],
+
+    "agent-chat-demo/tailwindcss": ["tailwindcss@4.3.1", "", {}, "sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q=="],
 
     "agent-chat-demo/typescript": ["typescript@6.0.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw=="],
 
