@@ -43,7 +43,7 @@
     "examples/agent-chat-demo": {
       "name": "agent-chat-demo",
       "dependencies": {
-        "@ai-sdk/openai": "^3.0.54",
+        "@ai-sdk/openai": "^4.0.2",
         "@ai-sdk/react": "^3.0.171",
         "@eigenpal/docx-editor-agents": "workspace:*",
         "@eigenpal/docx-editor-core": "workspace:*",
@@ -236,7 +236,7 @@
     },
     "packages/agents": {
       "name": "@eigenpal/docx-editor-agents",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "docxtemplater": "^3.50.0",
         "jszip": "^3.10.1",
@@ -267,7 +267,7 @@
     },
     "packages/core": {
       "name": "@eigenpal/docx-editor-core",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "bin": {
         "docx-editor-mcp": "./dist/mcp-cli.mjs",
       },
@@ -281,7 +281,7 @@
         "@microsoft/api-extractor": "^7.50.0",
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -292,7 +292,7 @@
       "peerDependencies": {
         "prosemirror-commands": "^1.5.2",
         "prosemirror-dropcursor": "^1.8.2",
-        "prosemirror-history": "^1.4.0",
+        "prosemirror-history": "^1.5.0",
         "prosemirror-keymap": "^1.2.2",
         "prosemirror-model": "^1.19.4",
         "prosemirror-state": "^1.4.3",
@@ -303,7 +303,7 @@
     },
     "packages/i18n": {
       "name": "@eigenpal/docx-editor-i18n",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "devDependencies": {
         "tsup": "^8.0.1",
         "typescript": "^5.3.3",
@@ -311,7 +311,7 @@
     },
     "packages/nuxt": {
       "name": "@eigenpal/nuxt-docx-editor",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-vue": "^1.0.3",
         "@nuxt/kit": "^3.14.0 || ^4.0.0",
@@ -337,11 +337,11 @@
     },
     "packages/react": {
       "name": "@eigenpal/docx-editor-react",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
-        "@eigenpal/docx-editor-agents": "^1.0.3",
-        "@eigenpal/docx-editor-core": "^1.0.3",
-        "@eigenpal/docx-editor-i18n": "^1.0.3",
+        "@eigenpal/docx-editor-agents": "^1.1.0",
+        "@eigenpal/docx-editor-core": "^1.1.0",
+        "@eigenpal/docx-editor-i18n": "^1.1.0",
         "@radix-ui/react-select": "^2.2.6",
         "clsx": "^2.1.0",
         "sonner": "^2.0.7",
@@ -377,7 +377,7 @@
     },
     "packages/vue": {
       "name": "@eigenpal/docx-editor-vue",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "dependencies": {
         "@eigenpal/docx-editor-agents": "^1.0.3",
         "@eigenpal/docx-editor-core": "^1.0.3",
@@ -413,7 +413,7 @@
   "packages": {
     "@ai-sdk/gateway": ["@ai-sdk/gateway@3.0.109", "", { "dependencies": { "@ai-sdk/provider": "3.0.10", "@ai-sdk/provider-utils": "4.0.26", "@vercel/oidc": "3.2.0" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-r6dOqThjODp1vOhGRJg2OCmyB/ZOQtGx1esZ2SDvwDX5XoX8dBqYaYjLg8MPXTzMGJSgOkJyCxWgUcZtAl16pw=="],
 
-    "@ai-sdk/openai": ["@ai-sdk/openai@3.0.58", "", { "dependencies": { "@ai-sdk/provider": "3.0.10", "@ai-sdk/provider-utils": "4.0.26" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-2+5xGMROmrBboJuoOwqLL3b/o3i56+NRdxXDNVAiTyYjLiBj6KzembeuyuBT217be1X+zkEfAqD1H0irJlGIyw=="],
+    "@ai-sdk/openai": ["@ai-sdk/openai@4.0.2", "", { "dependencies": { "@ai-sdk/provider": "4.0.0", "@ai-sdk/provider-utils": "5.0.1" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-/oxY+VpWgTrmqCOho1AD/jF5ZaHizkAEsrEVBhIHEzxSHpbJI0Ws8VSpfJPPBeTF7Ebz6eaNGOvKm2RzN5EcdQ=="],
 
     "@ai-sdk/provider": ["@ai-sdk/provider@3.0.10", "", { "dependencies": { "json-schema": "^0.4.0" } }, "sha512-Q3BZ27qfpYqnCYGvE3vt+Qi6LGOF9R5Nmzn+9JoM1lCRsD9mYaIhfJLkSunN48nfGXJ6n+XNV0J/XVpqGQl7Dw=="],
 
@@ -1336,6 +1336,8 @@
     "@vue/shared": ["@vue/shared@3.5.33", "", {}, "sha512-5vR2QIlmaLG77Ygd4pMP6+SGQ5yox9VhtnbDWTy9DzMzdmeLxZ1QqxrywEZ9sa1AVubfIJyaCG3ytyWU81ufcQ=="],
 
     "@web3-storage/multipart-parser": ["@web3-storage/multipart-parser@1.0.0", "", {}, "sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw=="],
+
+    "@workflow/serde": ["@workflow/serde@4.1.0", "", {}, "sha512-pav4F2BoirECWR7Nf1TKt+2eETcBj7jj4cBefQ8VXQCA6NPkaKeLfj/zMgi+3zYV5ZIBT4GuUiphsj0/b9hPQQ=="],
 
     "@xmldom/xmldom": ["@xmldom/xmldom@0.9.10", "", {}, "sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw=="],
 
@@ -3430,6 +3432,10 @@
     "zod-validation-error": ["zod-validation-error@4.0.2", "", { "peerDependencies": { "zod": "^3.25.0 || ^4.0.0" } }, "sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ=="],
 
     "zwitch": ["zwitch@2.0.4", "", {}, "sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A=="],
+
+    "@ai-sdk/openai/@ai-sdk/provider": ["@ai-sdk/provider@4.0.0", "", { "dependencies": { "json-schema": "^0.4.0" } }, "sha512-fr9Gs89prDWiuox/T+kCA+i2cJkHpxU5S+tr4megjTzRC27ZsvFhwjU/+XrqqMbvBUlfmXxTOYWy8ng45dsjIg=="],
+
+    "@ai-sdk/openai/@ai-sdk/provider-utils": ["@ai-sdk/provider-utils@5.0.1", "", { "dependencies": { "@ai-sdk/provider": "4.0.0", "@standard-schema/spec": "^1.1.0", "@workflow/serde": "4.1.0", "eventsource-parser": "^3.0.8" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-p9Ra+dN4jjHrssXvklNf4nFvWbj1KePMfUOs7nue0NuoIMbYFBULhX4Vu0+6DWLnw3+UsLL9+RCKLtzzU43Qpg=="],
 
     "@astrojs/react/@vitejs/plugin-react": ["@vitejs/plugin-react@5.2.0", "", { "dependencies": { "@babel/core": "^7.29.0", "@babel/plugin-transform-react-jsx-self": "^7.27.1", "@babel/plugin-transform-react-jsx-source": "^7.27.1", "@rolldown/pluginutils": "1.0.0-rc.3", "@types/babel__core": "^7.20.5", "react-refresh": "^0.18.0" }, "peerDependencies": { "vite": "^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0" } }, "sha512-YmKkfhOAi3wsB1PhJq5Scj3GXMn3WvtQ/JC0xoopuHoXSdmtdStOpFrYaT1kie2YgFBcIe64ROzMYRjCrYOdYw=="],
 
