@@ -11,7 +11,7 @@
     "@eigenpal/docx-editor-agents": "workspace:*",
     "@eigenpal/docx-editor-react": "workspace:*",
     "next": "^16.2.6",
-    "openai": "^6.36.0",
+    "openai": "^7.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
