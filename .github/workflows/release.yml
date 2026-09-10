@@ -148,7 +148,7 @@ jobs:
       #   runs `publish` and creates per-package git tags.
       - name: Release PR or Publish
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
           version: bun run version-packages
           publish: bunx changeset publish
